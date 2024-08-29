@@ -11,6 +11,9 @@ body{
 
 .header{
     background-color: #352F44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 10vh;
     font-size: 15px;
     text-align: center;
@@ -38,6 +41,18 @@ main{
     font-style: italic;
     font-weight: bold;
     font-variant: small-caps;
+}
+
+.blockquote {
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #d2d0d0;
+    padding: 4px;
+    margin: 8px 0;
+    border-left: 6px solid #6e7579;
 }
 
 .parrafo{
